@@ -1,0 +1,57 @@
+<meta charset="UTF-8">
+
+<h3>Calculadora Personal</h3>
+<button>Calcular</button>
+
+<script>
+//el error estaba en que no se debia poner dos loops en uno mientras ya un solo lo podia hacer, ademas, el primer loop estaba llamando al segundo, provocando una repeticion innecesaria//
+var boton = document.querySelector("button");
+var Total = [];
+
+
+
+
+
+function Calcular () {
+	
+// var cantidad = prompt("Cuantos valores va a sumar?");
+var sumaTotal = 0;
+
+for(i = 0; i < 1000; i ++) {
+
+	 Datos = parseInt(prompt("Diga su numero"));
+
+	if (Datos == 0 ) {
+			
+			break;
+		} 
+	
+
+
+Total.push(Datos);
+console.log(Datos)
+
+sumaTotal = sumaTotal + Total[i];
+	
+
+	
+}		
+
+			
+			document.write("Su valor total es de: " + sumaTotal);
+			document.write("<br>");
+			document.write("Su diezmo sera: " + (sumaTotal*10)/100);
+			console.log(sumaTotal);
+		
+
+};
+
+boton.onclick =  Calcular;
+
+
+
+
+
+</script>
+
+<h4>Instrucciones: Se debe utilizar el 0 para finalizar la sumacion.</h4>
