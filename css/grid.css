@@ -49,19 +49,14 @@
  }
 
 
- /* @media screen and (max-width: 600px) {
+  @media screen and (max-width: 600px) {
   #container {
-    display: grid;
+    
     width: 600px; 
-  
 
-
-    
-
-    
 }
+  }
 
- } */
  /* @media only screen and ( max-width: 1023px) {
 
   }

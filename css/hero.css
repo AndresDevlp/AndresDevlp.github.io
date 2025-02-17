@@ -52,13 +52,18 @@
 
 @media screen and (max-width: 600px) {
     #hero-container {
-    width: 30%;
+    width: 75vw;
     background-image: url(../img/bt7-svg2.svg);
     height: 40vh;
     background-position: center center;
     background-size: 100%;
     background-repeat: no-repeat;
     transition: ease-in-out 1s;
+    }
+
+
+    #hero {
+        width: 75vw;
     }
 /* 
     #heroimg {
