@@ -1,0 +1,42 @@
+@keyframes fade-up {
+    0% {
+        opacity: 0;
+        transform: translateY(30px) scale(0.9);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0px) scale(1);
+    }
+}
+
+
+
+@keyframes face-down {
+
+    0% {
+        opacity: 0;
+        transform: translateY(-50px) scale(0.9);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0px) scale(1);
+    }
+}
+
+
+
+
+.hidden {
+    opacity: 0;
+} 
+
+.mostrar {
+    opacity: 1;
+    transition: all 3s;
+}
+
+
+
+

@@ -1,0 +1,55 @@
+
+
+
+#container {
+    display: grid;
+    grid-template-areas: 
+    'header header'
+    'hero hero'
+    'division division'
+    'about about'
+    'parrafo parrafo'
+    'footer footer'
+    'final final';
+
+    
+}
+
+
+
+ header {
+    grid-area: header;
+  
+ }
+
+
+
+ #hero {
+    grid-area: hero;
+    
+ }
+
+
+ #about {
+   grid-area: about;
+ }
+
+ #parrafo {
+   grid-area: parrafo;
+ }
+ 
+
+ #footer {
+   grid-area: footer;
+ }
+
+
+ #final {
+   grid-area: final;
+ }
+
+
+ /* @media only screen and ( max-width: 1023px) {
+
+  }
+ } */

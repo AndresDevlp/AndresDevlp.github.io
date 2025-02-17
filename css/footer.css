@@ -1,0 +1,21 @@
+#footer {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+#footer-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+
+ .line {
+    width: 429px;
+ }
+
+#contacto{
+    width: 111px;
+    margin-left: 150px;
+
+}

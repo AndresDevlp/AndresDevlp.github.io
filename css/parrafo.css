@@ -1,0 +1,50 @@
+
+
+#parrafo {
+
+    /* display: flex;
+    justify-content: center;
+    align-content: center; */
+    display: grid;
+    place-items: center;
+    align-content: center;
+    /* width: 50%; */
+ 
+  
+   
+    
+   
+}
+
+/* 
+.fade-up {
+    animation: fade-up 5s;
+} */
+
+#p {
+    width: 50%;
+    text-align: center;
+    font-family: "Inter", sans-serif;
+    text-align: justify;
+    font-size: 25px;
+
+}
+    /* grid-template-columns: repeat(2, 431px);
+    grid-template-rows: repeat(2, 132px); */
+    /* grid-column-gap: 51px; */ 
+    /* grid-row-gap: 51px;
+    margin-top: 50px;
+     justify-items: center;
+    
+    font-size: 30px;
+ 
+}
+    
+
+
+/* p {
+    display: grid;
+    text-align: center;
+    place-items: center;
+    align-content: center;
+} */
