@@ -50,7 +50,7 @@
 
 
 
-@media screen and (max-width: 600px) {
+/* @media screen and (max-width: 600px) {
     #hero-container {
     width: 75vw;
     background-image: url(../img/bt7-svg2.svg);
@@ -69,8 +69,8 @@
     #heroimg {
         height: 20vh;
     } */
-}
-
+/* }
+ */ 
 
 
 /*#hero {

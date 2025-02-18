@@ -41,11 +41,11 @@
 
 
 
-@media screen and (max-width: 600px) {
+/* @media screen and (max-width: 600px) {
     #parrafo {
         width: 75vw;
     }
-}
+} */
     /* grid-template-columns: repeat(2, 431px);
     grid-template-rows: repeat(2, 132px); */
     /* grid-column-gap: 51px; */ 

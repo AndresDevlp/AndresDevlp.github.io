@@ -1,4 +1,10 @@
 
+#header {
+    height: 0px;
+    width: 0px;
+}
+
+
 header {
     
     display: flex;
@@ -79,7 +85,7 @@ header ul li a {
 
 
 
-@media screen and (max-width: 600px) {
+/* @media screen and (max-width: 600px) {
     header {
        display: flex;
        justify-content: space-between;
@@ -87,8 +93,7 @@ header ul li a {
         /* background-color: blue; */
         
 
-}
+/* }
 
+/*  */
 
-
-}

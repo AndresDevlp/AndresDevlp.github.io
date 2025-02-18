@@ -1,12 +1,18 @@
 let innerWidth = window.innerWidth;
 let innerHeight = window.innerHeight;
 const mainContainer = document.getElementById('container');
+const hero = document.getElementById('hero-container');
+const header = document.getElementById('header');
 
 
 const resize = window.addEventListener('resize', () => {
     console.log("working 1");
     mainContainer.style.width = innerWidth;
     mainContainer.style.height = innerHeight;
+    hero.style.width = innerWidth;
+    hero.style.height = innerHeight;
+    header.style.width = innerWidth;
+    header.style.height = innerHeight;
     console.log("working 2");
     
 })
