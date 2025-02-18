@@ -1,13 +1,15 @@
 let innerWidth = window.innerWidth;
 let innerHeight = window.innerHeight;
+const mainContainer = document.getElementById('container');
 
 
-
-if (innerWidth) {
-    console.log('Resized viewport width:', width);
-}
-
-
+const resize = window.addEventListener('resize', () => {
+    console.log("working 1");
+    mainContainer.style.width = innerWidth;
+    mainContainer.style.height = innerHeight;
+    console.log("working 2");
+    
+})
 
 
 
