@@ -1,3 +1,19 @@
+let innerWidth = window.innerWidth;
+let innerHeight = window.innerHeight;
+
+
+
+if (innerWidth) {
+    console.log('Resized viewport width:', width);
+}
+
+
+
+
+
+
+
+
 
 
 //Animacion para mientras se scrollea, vaya apareciendo todo//
