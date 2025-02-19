@@ -1,11 +1,9 @@
 
-
-
 #hero-container {
     
   
     width: 100%;
-    height: 100vh;
+    height: 50vh;
     background-image: url(../img/bt7-svg2.svg);
     background-position: center center;
     background-size: 100%;
