@@ -79,6 +79,38 @@ header ul li a {
 
 
 
+@media screen and (max-width: 600px) {
+
+    header{
+        height: 10vh;
+    }
+
+    li {
+        margin-top: 20px;
+        
+    }
+
+  
+
+    #logo1 {
+        
+    width: 20vw;
+    
+    }
+
+    #logo2 {
+        width: 30px;
+        height: 30px;
+    }
+
+    #logo3 {
+        width: 30px;
+        height: 30px;
+    }
+}
+    
+
+
 
 /* @media screen and (max-width: 600px) {
     header {
