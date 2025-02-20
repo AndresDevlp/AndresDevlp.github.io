@@ -8,13 +8,9 @@ const resize = window.addEventListener('resize', () => {
     let innerWidth = window.innerWidth;
     let innerHeight = window.innerHeight;
     
-
     mainContainer.style.width = innerWidth;
-    mainContainer.style.height = innerHeight;
-    hero.style.width = innerWidth;
-    hero.style.height = innerHeight;
-
-    console.log("working 2");
+    // mainContainer.style.height = innerHeight;
+   
     
 })
 
