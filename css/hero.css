@@ -3,7 +3,7 @@
     
   
     width: 100%;
-    height: 50vh;
+    height: 110vh;
     background-image: url(../img/bt7-svg2.svg);
     background-position: center center;
     background-size: 100%;
@@ -69,21 +69,22 @@
 
 
 
-/* @media screen and (max-width: 600px) {
+ @media screen and (max-width: 600px) {
     #hero-container {
-    width: 75vw;
+    width: 100%;
     background-image: url(../img/bt7-svg2.svg);
-    height: 40vh;
+    height: 50vh;
     background-position: center center;
     background-size: 100%;
     background-repeat: no-repeat;
     transition: ease-in-out 1s;
     }
 
-
+/* 
     #hero {
-        width: 75vw;
-    }
+        width: 100%;
+    } */
+}
 /* 
     #heroimg {
         height: 20vh;
